@@ -5,8 +5,9 @@
             Title="MainPage">
 
   <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <Button Text="Single TabbedPage" CommandParameter="SingleTabbedPage" Command="{Binding Command}" />
     <Button Text="TabbedCollectionPage" CommandParameter="TabbedCollectionPage1" Command="{Binding Command}" />
-    <Button Text="TabbedPageInTabbedCollectionPage" CommandParameter="TabbedCollectionPage2" Command="{Binding Command}" />
+    <Button Text="TabbedPage In TabbedCollectionPage" CommandParameter="TabbedCollectionPage2" Command="{Binding Command}" />
   </StackLayout>
   
 </ContentPage>
