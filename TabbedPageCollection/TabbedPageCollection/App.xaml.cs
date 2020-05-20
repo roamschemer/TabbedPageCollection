@@ -30,6 +30,8 @@ namespace TabbedPageCollection {
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<TabbedCollectionPage1, TabbedCollectionPage1ViewModel>();
+            containerRegistry.RegisterForNavigation<TabbedCollectionPage2, TabbedCollectionPage2ViewModel>();
         }
     }
 }

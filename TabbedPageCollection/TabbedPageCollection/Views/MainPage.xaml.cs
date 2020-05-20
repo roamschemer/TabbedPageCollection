@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace TabbedPageCollection.Views {
-    public partial class MainPage : TabbedPage {
+    public partial class MainPage : ContentPage {
         public MainPage() {
             InitializeComponent();
         }
